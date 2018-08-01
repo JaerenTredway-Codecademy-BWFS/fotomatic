@@ -125,6 +125,8 @@ header .mobile {
 .banner {
   background-image: url("../images/banner-landingpage.jpg");
   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* hero image: */
@@ -241,8 +243,13 @@ header .mobile {
 
 .feature .image-container {
   width: 90%;
-  height: 65%;
+  /* height: 65%; */
   margin: 0 auto;
+}
+
+.feature img {
+  width: 100%;
+  height: auto;
 }
 
 .feature h2 {

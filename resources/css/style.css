@@ -42,7 +42,6 @@ header {
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
   z-index: 1;
-  border: 1px solid red;
 }
 
 header .content {
@@ -106,14 +105,11 @@ header .mobile {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    margin: 0;
   }
 
   header .mobile li {
     padding: 0;
-  }
-
-  header .mobile a {
-
   }
 
   header .mobile .button {
@@ -121,6 +117,7 @@ header .mobile {
     background-color: #9dc20b;
     line-height: 1.6;
     color: white;
+    margin-right: 1.5rem;
   }
 }
 
@@ -138,7 +135,6 @@ header .mobile {
   height: 43.5rem;
 }
 
-/* green box: */
 #sign-up-cta {
   padding: 0 5rem 2.5rem 5rem;
   border: solid 1px #979797;
@@ -147,7 +143,6 @@ header .mobile {
   margin: auto 0 auto 10%;
 }
 
-/*  */
 #sign-up-cta .content {
   width: 27rem;
   margin-top: 2rem;
@@ -155,8 +150,6 @@ header .mobile {
   font-size: 1.25rem;
   line-height: 1.4;
   color: white;
-    border: 1px solid blue;
-
 }
 
 #sign-up-cta h1 {
@@ -173,23 +166,15 @@ header .mobile {
   font-weight: bold;
 }
 
-#sign-up-cta span {
-  border: 1px solid red;
-
-}
-
 #sign-up-cta .cursive {
   font-family: "Damion", cursive;
   margin: 0;
-    border: 1px solid red;
 }
 
 #sign-up-cta .striking {
   font-family: "Rubik", sans-serif;
   padding-bottom: .75rem;
   margin: 0;
-    border: 1px solid red;
-
 }
 
 #sign-up-cta .button {
@@ -206,14 +191,12 @@ header .mobile {
 
   #sign-up-cta {
     /* position: static; */
-    width: ;
+    /* width: auto; */
     /* height: auto; */
     background-color: transparent;
-    /* width: 20rem; */
     padding: 0;
     margin: auto;
-    border: 1px solid red;
-
+    border: none;
   }
 
   #sign-up-cta .content {
@@ -223,8 +206,6 @@ header .mobile {
   #sign-up-cta .email {
     display: none;
   }
-
-
 
 }
 

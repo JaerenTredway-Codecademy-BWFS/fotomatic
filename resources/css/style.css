@@ -317,8 +317,18 @@ header .mobile {
 }
 
 #filters-section .images-container {
-  max-width: 100%;
+  width: 100%;
   padding: 0 1%;
+}
+
+#filters-section .image-container {
+  display: inline-block;
+  width: 24.5%;
+}
+
+#filters-section .image-container img {
+  height: auto;
+  width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -328,6 +338,7 @@ header .mobile {
 
   #filters-section .content {
     margin-bottom: 1rem;
+    padding-top: 0;
   }
 
   #filters-section .content h2 {
@@ -342,8 +353,8 @@ header .mobile {
     line-height: 1.4;
   }
 
-  #filters-section .images-container {
-    padding: 0;
+  #filters-section .image-container {
+    width: 32.5%;
   }
 
   #filters-section .extra {
